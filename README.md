@@ -2,7 +2,7 @@
 Utils script for using VAT shader form SideFX Labs with VFX Graph Effects
 For more information on Vertex Animation Texture (VAT) see the [SideFX Labs repository](https://github.com/sideeffects/SideFXLabs)
 
-![gif](https://i.imgur.com/x0wTcDA.gif)
+![gif](https://i.imgur.com/QvUroaJ.gif)
 
 System requirements
 -------------------
