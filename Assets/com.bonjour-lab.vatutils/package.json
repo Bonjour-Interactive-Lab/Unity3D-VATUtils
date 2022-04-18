@@ -1,0 +1,30 @@
+{
+    "name": "com.bonjour-lab.vatutils",
+    "displayName": "Bonjour Lab - VATUtils",
+    "version": "0.0.1",
+    "unity": "2021.X",
+    "description": "Vertex Animation Texture utilities tools used at BonjourLab",
+    "keywords": [
+          "utility",
+          "unity",
+          "vertexanimationtexture",
+          "bonjourlab"
+      ],
+    "homepage": "https://www.bonjour-lab.com/",
+    "bugs": {
+      "url": "https://github.com/Bonjour-Interactive-Lab/Unity3D-VATUtils/issues"
+     },
+    "repository": {
+       "type": "git",
+       "url": "https://github.com/Bonjour-Interactive-Lab/Unity3D-VATUtils.git"
+    },
+    "license": "MIT",
+    "author": {
+           "name": "bonjour lab",
+           "email": "alex@bonjour-lab.com",
+           "url": "https://www.bonjour-lab.com/"
+     },
+     "dependencies": { 
+         "com.unity.nuget.newtonsoft-json": "2.0.0"
+      }
+  }

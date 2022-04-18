@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82dee906ff0cc4e4cb9b86d3b735f4e4, type: 3}
+  m_Name: OrchidMono
+  m_EditorClassIdentifier: 
+  folderPath: VATExample\Orchid
+  VATName: Orchid
+  vfxPrefabModel: {fileID: 63014533592992818, guid: f2e431898b065e34c9b585e6a1a6f402,
+    type: 3}
+  vfxPrefab: {fileID: 0}
+  vfx: {fileID: 0}
+  numberOfInstance: 5
+  globalScale: 0.125
+  AlbedoRamp: {fileID: 2800000, guid: 230f16c4310751d4bad2995ee23d8167, type: 3}
+  NormalMap: {fileID: 2800000, guid: 637994f5c651a3940bcf47d1aa0c159d, type: 3}
+  normalStrength: 0.25
+  PBRMask: {fileID: 2800000, guid: b7693edd7388c50428d1d455736d5e13, type: 3}

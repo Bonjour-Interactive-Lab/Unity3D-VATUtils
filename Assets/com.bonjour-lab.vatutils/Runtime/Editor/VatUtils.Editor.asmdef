@@ -1,0 +1,18 @@
+{
+    "name": "VATUtils.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8aa4a5bba17d3ae4c82c50addf9bf749"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Editor"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

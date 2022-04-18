@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3896548834310253918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9217680584977993185}
+  - component: {fileID: 3750129643127817288}
+  - component: {fileID: 4160479539781034762}
+  - component: {fileID: 5337759027532952320}
+  m_Layer: 0
+  m_Name: VFXxVATFlowerPistil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9217680584977993185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3896548834310253918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3750129643127817288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3896548834310253918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c8acb92ed232f419d4bb8205781c18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vatDescriptor: {fileID: 11400000, guid: 391d4104e74379248843b5bcad2eebbf, type: 2}
+--- !u!2083052967 &4160479539781034762
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3896548834310253918}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: f43771a7b1ae8794b8b2fb0072bed808, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_ResourceVersion: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 0.125
+        m_Name: Global Scale
+        m_Overridden: 1
+      - m_Value: 0.125
+        m_Name: Global Scale 1
+        m_Overridden: 1
+      - m_Value: 0.5
+        m_Name: Normal Scale
+        m_Overridden: 1
+      - m_Value: 0.5
+        m_Name: Normal Scale 1
+        m_Overridden: 1
+      - m_Value: 299
+        m_Name: Number of Frames
+        m_Overridden: 1
+      - m_Value: 299
+        m_Name: Number of Frames 1
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Padded X
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Padded X 1
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Padded Y
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Padded Y 1
+        m_Overridden: 1
+      - m_Value: 0.5514049
+        m_Name: Pos Max
+        m_Overridden: 1
+      - m_Value: 0.1532921
+        m_Name: Pos Max 1
+        m_Overridden: 1
+      - m_Value: -0.5590077
+        m_Name: Pos Min
+        m_Overridden: 1
+      - m_Value: -0.0998588
+        m_Name: Pos Min 1
+        m_Overridden: 1
+      - m_Value: 0.10033445
+        m_Name: Speed
+        m_Overridden: 1
+      - m_Value: 0.10033445
+        m_Name: Speed 1
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Debug Time
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array: []
+    m_Vector4f:
+      m_Array: []
+    m_Uint:
+      m_Array: []
+    m_Int:
+      m_Array:
+      - m_Value: 4
+        m_Name: Number of Instances
+        m_Overridden: 1
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array: []
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 2800000, guid: 230f16c4310751d4bad2995ee23d8167, type: 3}
+        m_Name: Albedo
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 2734bdddd4bde0043ab2f3e8dc56ed3b, type: 3}
+        m_Name: Albedo 1
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 540a5e1bb90823a4e9ecc2babf313b77, type: 3}
+        m_Name: Color Map
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 4ef9b3d89f91a9344bb975fb9ee6df37, type: 3}
+        m_Name: Color Map 1
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 2ba6564dd1656c743886df234dd1f5da, type: 3}
+        m_Name: Normal Map
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 637994f5c651a3940bcf47d1aa0c159d, type: 3}
+        m_Name: Normal Map 1
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 000f0328387871044b2c06a77d1ceeb5, type: 3}
+        m_Name: Normal Map 2
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 3bf98544a99c52d41ac808bb10997cb5, type: 3}
+        m_Name: Normal Map 3
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 2682e045e0564a54e8dca19f97929a07, type: 3}
+        m_Name: PBR Mask
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: b7693edd7388c50428d1d455736d5e13, type: 3}
+        m_Name: PBR Mask 1
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 918d4fa64bb54fa4aa2937c3d880d90a, type: 3}
+        m_Name: Position Map
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: e4f5038d2e69f06418209328354099a7, type: 3}
+        m_Name: Position Map 1
+        m_Overridden: 1
+      - m_Value: {fileID: -2749265896460310151, guid: 59fc3badcd5b20a4eaee091eddc2fe08,
+          type: 3}
+        m_Name: VAT Mesh
+        m_Overridden: 1
+      - m_Value: {fileID: -2749265896460310151, guid: 0bffd90f2e9d1dc4893d602b22a06675,
+          type: 3}
+        m_Name: VAT Mesh 1
+        m_Overridden: 1
+      - m_Value: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+        m_Name: Sampled Mesh
+        m_Overridden: 1
+    m_Bool:
+      m_Array:
+      - m_Value: 0
+        m_Name: Pack Normal
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Pack Normal 1
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: LookDev
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Is Time Controlled 1
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Is Time Controlled
+        m_Overridden: 1
+--- !u!73398921 &5337759027532952320
+VFXRenderer:
+  serializedVersion: 1
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3896548834310253918}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
