@@ -1,13 +1,13 @@
 {
-    "name": "VATUtils.Editor",
+    "name": "vatutils.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:8aa4a5bba17d3ae4c82c50addf9bf749"
+        "vatutils"
     ],
-    "includePlatforms": [],
-    "excludePlatforms": [
+    "includePlatforms": [
         "Editor"
     ],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],

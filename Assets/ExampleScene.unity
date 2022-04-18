@@ -1396,8 +1396,7 @@ PrefabInstance:
       propertyPath: m_MotionVectors
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2811432890738591467, guid: f2e431898b065e34c9b585e6a1a6f402, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2e431898b065e34c9b585e6a1a6f402, type: 3}
 --- !u!1001 &381719192058049600
 PrefabInstance:
