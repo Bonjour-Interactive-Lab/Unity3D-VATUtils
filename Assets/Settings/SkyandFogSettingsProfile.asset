@@ -154,11 +154,11 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 78.4
   skyIntensityMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 10.5
+    m_Value: 10
   multiplier:
     m_OverrideState: 0
     m_Value: 1
@@ -309,10 +309,10 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   fixedExposure:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   compensation:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   limitMin:
     m_OverrideState: 1
