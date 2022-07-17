@@ -12,15 +12,15 @@ namespace Bonjour.VAT{
         protected override void BindVATParamsToVFX(ref VisualEffect vfx){
             base.BindVATParamsToVFX(ref vfx);
 
-            SetBool(ref vfx, "Interframe Interpolation", VATMaterialReference.GetFloat("_B_interpolate"));
-            SetBool(ref vfx, "Interpolate Color", VATMaterialReference.GetFloat("_B_interpolateCol"));
-            SetBool(ref vfx, "Interpolate Spare Color", VATMaterialReference.GetFloat("_B_interpolateSpareCol"));
-            SetBool(ref vfx, "Use Compressed Normals", VATMaterialReference.GetFloat("_Use_Compressed_Normals"));
+            vfx.SetBool("Interframe Interpolation", vatdata.interframeInterpolations);
+            vfx.SetBool("Interpolate Color", vatdata.interpolateColor);
+            vfx.SetBool("Interpolate Spare Color", vatdata.interpolateSpareColor);
+            vfx.SetBool("Use Compressed Normals", vatdata.useCompressedNormals);
         }
 
         protected override void BindVATTextures(ref VisualEffect vfx){
             base.BindVATTextures(ref vfx);
-            SetTexture(ref vfx, "Rotation Texture", VATMaterialReference.GetTexture("_rotTexture"));
+            SetTexture(ref vfx, "Rotation Texture", vatdata.rotationTexture);
         }
     }
 }

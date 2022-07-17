@@ -8,12 +8,15 @@ namespace Bonjour.VAT{
     [RequireComponent(requiredComponent:typeof(VisualEffect))]
     public abstract class BindVATToVFX : MonoBehaviour
     {
-        public Mesh VATMeshReference;
-        public Material VATMaterialReference;
+        [Tooltip("Add your VAT Mesh from Houdini")] public Mesh VATMeshReference;
+        [Tooltip("Add your VAT Material from Houdini")] public Material VATMaterialReference;
+
+        protected VATData vatdata;
 
         public virtual void LoadAndApplyParams(){
             VisualEffect vfx = this.GetComponent<VisualEffect>();
-            
+
+            ConstructVATData();
             BindVATMesh(ref vfx);
             BindVATParamsToVFX(ref vfx);
             BindVATTextures(ref vfx);
@@ -22,59 +25,54 @@ namespace Bonjour.VAT{
             BindCustomDataToVFX(ref vfx);
         }
 
+        protected virtual void ConstructVATData(){
+            vatdata = new VATData(VATMaterialReference);
+        }
+
         protected virtual void BindVATMesh(ref VisualEffect vfx){
             vfx.SetMesh("VAT Mesh", VATMeshReference);
         }
 
         protected virtual void BindVATParamsToVFX(ref VisualEffect vfx){
-            SetBool(ref vfx, "Auto Playback", VATMaterialReference.GetFloat("_B_autoPlayback"));
+            vfx.SetBool("Auto Playback", vatdata.autoPlayback);
 
-            vfx.SetFloat("Game Time at First Frame", VATMaterialReference.GetFloat("_gameTimeAtFirstFrame"));
-            vfx.SetFloat("Playback Speed", VATMaterialReference.GetFloat("_playbackSpeed"));
-            vfx.SetFloat("Houdini FPS", VATMaterialReference.GetFloat("_houdiniFPS"));
-            vfx.SetFloat("Display Frame", VATMaterialReference.GetFloat("_displayFrame"));
+            vfx.SetFloat("Game Time at First Frame", vatdata.gameStartAtFirstFrame);
+            vfx.SetFloat("Playback Speed", vatdata.playbackSpeed);
+            vfx.SetFloat("Houdini FPS", vatdata.houdiniFPS);
+            vfx.SetFloat("Display Frame", vatdata.displayFrame);
 
-            SetBool(ref vfx, "Support Surface Normal Map", VATMaterialReference.GetFloat("_B_surfaceNormals"));
-            SetBool(ref vfx, "Two Sided Normals", VATMaterialReference.GetFloat("_B_twoSidedNorms"));
-           
-            SetBool(ref vfx, "Load Color Texture", VATMaterialReference.GetFloat("_Load_Color_Texture"));
-            SetBool(ref vfx, "Position Required Two Textures", VATMaterialReference.GetFloat("_Positions_Require_Two_Textures"));
-            SetBool(ref vfx, "Load Surface Normal", VATMaterialReference.GetFloat("_Load_Surface_Normal_Map"));
-
+            vfx.SetBool("Support Surface Normal Map", vatdata.supportSurfaceNormalMap);
+            vfx.SetBool("Two Sided Normals", vatdata.twoSidedNormals);
+            vfx.SetBool("Load Color Texture", vatdata.loadColorTexture);
+            vfx.SetBool("Position Required Two Textures", vatdata.positionRequiredTwoTextures);
+            vfx.SetBool("Load Surface Normal", vatdata.loadSurfaceNormal);
         }
 
         protected virtual void BindVATTextures(ref VisualEffect vfx){
-            SetTexture(ref vfx, "Position Texture", VATMaterialReference.GetTexture("_posTexture"));
-            SetTexture(ref vfx, "Position Texture 2", VATMaterialReference.GetTexture("_posTexture2"));
-
-            SetTexture(ref vfx, "Color Texture", VATMaterialReference.GetTexture("_colTexture"));
-            SetTexture(ref vfx, "Spare Color Texture", VATMaterialReference.GetTexture("_spareColTexture"));
+            SetTexture(ref vfx, "Position Texture", vatdata.positionTexture);
+            SetTexture(ref vfx, "Position Texture 2", vatdata.positionTexture2);
+            SetTexture(ref vfx, "Color Texture", vatdata.colorTexture);
+            SetTexture(ref vfx, "Spare Color Texture", vatdata.spareColorTexture);
         }
 
         protected virtual void BindVATData(ref VisualEffect vfx){
             //VAT DATA
-            vfx.SetFloat("Frame Count", VATMaterialReference.GetFloat("_frameCount"));
-            vfx.SetFloat("Bound Max X", VATMaterialReference.GetFloat("_boundMaxX"));
-            vfx.SetFloat("Bound Max Y", VATMaterialReference.GetFloat("_boundMaxY"));
-            vfx.SetFloat("Bound Max Z", VATMaterialReference.GetFloat("_boundMaxZ"));
-            vfx.SetFloat("Bound Min X", VATMaterialReference.GetFloat("_boundMinX"));
-            vfx.SetFloat("Bound Min Y", VATMaterialReference.GetFloat("_boundMinY"));
-            vfx.SetFloat("Bound Min Z", VATMaterialReference.GetFloat("_boundMinZ"));
+            vfx.SetFloat("Frame Count", vatdata.frameCount);
+            vfx.SetFloat("Bound Max X", vatdata.boundMaxX);
+            vfx.SetFloat("Bound Max Y", vatdata.boundMaxY);
+            vfx.SetFloat("Bound Max Z", vatdata.boundMaxZ);
+            vfx.SetFloat("Bound Min X", vatdata.boundMinX);
+            vfx.SetFloat("Bound Min Y", vatdata.boundMinY);
+            vfx.SetFloat("Bound Min Z", vatdata.boundMinZ);
         }
 
         protected virtual void BindCustomDataToVFX(ref VisualEffect vfx){
             //Extend this function to bind your own custom data to the VFX Graph (eg: Albedo, Roughness, Metallic...)
         }
 
-        //utils
-        protected virtual void SetBool(ref VisualEffect vfx, string ID, float value){
-            vfx.SetBool(ID, value == 1 ? true : false);
-        }
-
-        protected virtual void SetTexture(ref VisualEffect vfx, string ID, Texture value){
-            if(value == null) return;
-
-            vfx.SetTexture(ID, value);
+        protected void SetTexture(ref VisualEffect vfx, string ID, Texture texture){
+            if(texture != null)
+                vfx.SetTexture(ID, texture);
         }
     }
 }
