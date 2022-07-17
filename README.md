@@ -1,4 +1,4 @@
-# IMPORTANT: README NOT UPDATED
+# IMPORTANT: README OUTDATED
 This repository is under update to support VAT3.0 from sideFX. 
 The following readme is outdated and concerns VAT2.1. See the VAT 2.X branch for complete informations.
 
