@@ -1,3 +1,7 @@
+# IMPORTANT: README NOT UPDATED
+This repository is under update to support VAT3.0 from sideFX. 
+The following readme is outdated and concerns VAT2.1. See the VAT 2.X branch for complete informations.
+
 # VATUtils
 Utils script for using VAT shader form SideFX Labs with VFX Graph Effects
 For more information on Vertex Animation Texture (VAT) see the [SideFX Labs repository](https://github.com/sideeffects/SideFXLabs)
