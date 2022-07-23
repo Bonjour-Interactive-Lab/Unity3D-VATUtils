@@ -23,6 +23,9 @@ namespace Bonjour.VAT{
             BindVATData(ref vfx);
 
             BindCustomDataToVFX(ref vfx);
+
+            //vfx.Stop();
+            vfx.Reinit();
         }
 
         protected virtual void ConstructVATData(){
