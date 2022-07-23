@@ -29,6 +29,13 @@ namespace Bonjour.VAT{
             useCompressedNormals        = MaterialGetter.GetBoolValue(mat, "_Use_Compressed_Normals");
 
             //Rigid Body
+            pieceScaleAreInPositionAlpha    = MaterialGetter.GetBoolValue(mat, "_B_pscaleAreInPosA");
+            globalPieceScaleMultiplier      = MaterialGetter.GetFloatValue(mat, "_globalPscaleMul");
+            stretchByVelocity               = MaterialGetter.GetBoolValue(mat, "_B_stretchByVel");
+            stretchByVelocityAmount         = MaterialGetter.GetFloatValue(mat, "_stretchByVelAmount");
+            animateFirstFrame               = MaterialGetter.GetBoolValue(mat, "_B_animateFirstFrame");
+            smoothlyInterpolatedTrajectory  = MaterialGetter.GetBoolValue(mat, "_Smoothly_Interpolated_Trajectories");
+
 
             //Particles
 
@@ -68,12 +75,12 @@ namespace Bonjour.VAT{
         public readonly bool useCompressedNormals;
 
         // //Rigid Body
-        // public readonly bool pieceScaleAreInPositionAlpha;
-        // public readonly float globalPieceScaleMultiplier;
-        // public readonly bool stretchByVelocity;
-        // public readonly float stretchByVelocityAmount;
-        // public readonly bool animateFirstFrame;
-        // public readonly bool smoothlyInterpolatedTrajectory;
+        public readonly bool pieceScaleAreInPositionAlpha;
+        public readonly float globalPieceScaleMultiplier;
+        public readonly bool stretchByVelocity;
+        public readonly float stretchByVelocityAmount;
+        public readonly bool animateFirstFrame;
+        public readonly bool smoothlyInterpolatedTrajectory;
         
         // //Particles Sprites
         // public readonly bool particleScalesAreInPositionAlpha;
