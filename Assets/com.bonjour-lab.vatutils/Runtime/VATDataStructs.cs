@@ -40,6 +40,8 @@ namespace Bonjour.VAT{
             //Particles
 
             //Dynamic
+            surfaceUVsFromColorRG   = MaterialGetter.GetBoolValue(mat, "_B_uvFromRG"); ;
+            lookupTable             = MaterialGetter.GetTexture(mat, "_lookupTable"); ;
 
             //Data
             frameCount = MaterialGetter.GetFloatValue(mat, "_frameCount");
@@ -97,8 +99,8 @@ namespace Bonjour.VAT{
         // public readonly bool particleCanSpin;
 
         // //Dynamic Remeshing
-        // public readonly bool surfaceUVsFromColorRG;
-        // public readonly Texture lookupTable;
+        public readonly bool surfaceUVsFromColorRG;
+        public readonly Texture lookupTable;
 
         //Data
         public readonly float frameCount;

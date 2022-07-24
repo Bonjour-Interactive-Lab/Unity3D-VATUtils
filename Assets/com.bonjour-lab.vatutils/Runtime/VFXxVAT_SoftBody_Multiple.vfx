@@ -362,12 +362,16 @@ MonoBehaviour:
     collapsed: 1
   - name: VAT Params
     collapsed: 1
+  - name: VAT Variants
+    collapsed: 1
   - name: VAT Data
     collapsed: 1
   - name: VAT Params 1
     collapsed: 0
-  - name: VAT Data 1
+  - name: VAT Variants 1
     collapsed: 0
+  - name: VAT Data 1
+    collapsed: 1
   uiBounds:
     serializedVersion: 2
     x: -1353
@@ -803,62 +807,6 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: Load Color Texture
-    path: Load Color Texture
-    tooltip: 
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: Position Required Two Textures
-    path: Position Required Two Textures
-    tooltip: 
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: False
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: Load Surface Normal
-    path: Load Surface Normal
-    tooltip: 
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: Use Compressed Normals
-    path: Use Compressed Normals
-    tooltip: 
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: False
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
   - name: Position Texture
     path: Position Texture
     tooltip: 
@@ -925,6 +873,75 @@ MonoBehaviour:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       m_SerializableObject: 
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: VAT Variants
+    path: 
+    tooltip: 
+    sheetType: 
+    realType: 
+    defaultValue:
+      m_Type:
+        m_SerializableType: 
+      m_SerializableObject: 
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Load Color Texture
+    path: Load Color Texture
+    tooltip: 
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: True
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Use Compressed Normals
+    path: Use Compressed Normals
+    tooltip: 
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: False
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Load Surface Normal
+    path: Load Surface Normal
+    tooltip: 
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: True
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Position Required Two Textures
+    path: Position Required Two Textures
+    tooltip: 
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: False
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -1207,62 +1224,6 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: Load Color Texture 1
-    path: Load Color Texture 1
-    tooltip: 
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: Position Required Two Textures 1
-    path: Position Required Two Textures 1
-    tooltip: 
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: False
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: Load Surface Normal 1
-    path: Load Surface Normal 1
-    tooltip: 
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: Use Compressed Normals 1
-    path: Use Compressed Normals 1
-    tooltip: 
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: False
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
   - name: Position Texture 1
     path: Position Texture 1
     tooltip: 
@@ -1329,6 +1290,75 @@ MonoBehaviour:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       m_SerializableObject: 
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: VAT Variants 1
+    path: 
+    tooltip: 
+    sheetType: 
+    realType: 
+    defaultValue:
+      m_Type:
+        m_SerializableType: 
+      m_SerializableObject: 
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Load Color Texture 1
+    path: Load Color Texture 1
+    tooltip: 
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: True
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Use Compressed Normals 1
+    path: Use Compressed Normals 1
+    tooltip: 
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: False
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Load Surface Normal 1
+    path: Load Surface Normal 1
+    tooltip: 
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: True
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Position Required Two Textures 1
+    path: Position Required Two Textures 1
+    tooltip: 
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: False
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -7963,8 +7993,8 @@ MonoBehaviour:
   - {fileID: 8926484042661616220}
   m_ExposedName: Load Color Texture
   m_Exposed: 1
-  m_Order: 35
-  m_Category: VAT Params
+  m_Order: 0
+  m_Category: VAT Variants
   m_Min:
     m_Type:
       m_SerializableType: 
@@ -8043,8 +8073,8 @@ MonoBehaviour:
   - {fileID: 8926484042661616222}
   m_ExposedName: Position Required Two Textures
   m_Exposed: 1
-  m_Order: 37
-  m_Category: VAT Params
+  m_Order: 3
+  m_Category: VAT Variants
   m_Min:
     m_Type:
       m_SerializableType: 
@@ -8123,8 +8153,8 @@ MonoBehaviour:
   - {fileID: 8926484042661616224}
   m_ExposedName: Load Surface Normal
   m_Exposed: 1
-  m_Order: 41
-  m_Category: VAT Params
+  m_Order: 2
+  m_Category: VAT Variants
   m_Min:
     m_Type:
       m_SerializableType: 
@@ -8203,8 +8233,8 @@ MonoBehaviour:
   - {fileID: 8926484042661616226}
   m_ExposedName: Use Compressed Normals
   m_Exposed: 1
-  m_Order: 43
-  m_Category: VAT Params
+  m_Order: 1
+  m_Category: VAT Variants
   m_Min:
     m_Type:
       m_SerializableType: 
@@ -13143,8 +13173,8 @@ MonoBehaviour:
   - {fileID: 8926484042661616404}
   m_ExposedName: Load Color Texture 1
   m_Exposed: 1
-  m_Order: 38
-  m_Category: VAT Params 1
+  m_Order: 0
+  m_Category: VAT Variants 1
   m_Min:
     m_Type:
       m_SerializableType: 
@@ -13223,8 +13253,8 @@ MonoBehaviour:
   - {fileID: 8926484042661616406}
   m_ExposedName: Position Required Two Textures 1
   m_Exposed: 1
-  m_Order: 40
-  m_Category: VAT Params 1
+  m_Order: 3
+  m_Category: VAT Variants 1
   m_Min:
     m_Type:
       m_SerializableType: 
@@ -13303,8 +13333,8 @@ MonoBehaviour:
   - {fileID: 8926484042661616408}
   m_ExposedName: Load Surface Normal 1
   m_Exposed: 1
-  m_Order: 44
-  m_Category: VAT Params 1
+  m_Order: 2
+  m_Category: VAT Variants 1
   m_Min:
     m_Type:
       m_SerializableType: 
@@ -13383,8 +13413,8 @@ MonoBehaviour:
   - {fileID: 8926484042661616410}
   m_ExposedName: Use Compressed Normals 1
   m_Exposed: 1
-  m_Order: 46
-  m_Category: VAT Params 1
+  m_Order: 1
+  m_Category: VAT Variants 1
   m_Min:
     m_Type:
       m_SerializableType: 

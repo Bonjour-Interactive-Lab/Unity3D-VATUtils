@@ -224,9 +224,11 @@ MonoBehaviour:
   - name: Custom Instance Controls
     collapsed: 1
   - name: VAT Params
-    collapsed: 1
+    collapsed: 0
   - name: VAT Customisation
-    collapsed: 1
+    collapsed: 0
+  - name: VAT Variants
+    collapsed: 0
   - name: VAT Data
     collapsed: 1
   uiBounds:
@@ -391,7 +393,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":-10.0,"y":10.0}'
+      m_SerializableObject: '{"x":-20.0,"y":20.0}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -405,7 +407,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":-10.0,"y":10.0}'
+      m_SerializableObject: '{"x":-20.0,"y":20.0}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -433,7 +435,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1000
+      m_SerializableObject: 4
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -447,7 +449,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1000
+      m_SerializableObject: 6
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -475,7 +477,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1
+      m_SerializableObject: 5
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -647,62 +649,6 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: Load Color Texture
-    path: Load Color Texture
-    tooltip: 
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: Position Required Two Textures
-    path: Position Required Two Textures
-    tooltip: 
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: False
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: Load Surface Normal
-    path: Load Surface Normal
-    tooltip: 
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: Smoothly Interpolated Trajectories
-    path: Smoothly Interpolated Trajectories
-    tooltip: 
-    sheetType: m_Bool
-    realType: Boolean
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: True
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
   - name: Position Texture
     path: Position Texture
     tooltip: 
@@ -844,6 +790,75 @@ MonoBehaviour:
     descendantCount: 0
   - name: Animate First Frame
     path: Animate First Frame
+    tooltip: 
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: False
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: VAT Variants
+    path: 
+    tooltip: 
+    sheetType: 
+    realType: 
+    defaultValue:
+      m_Type:
+        m_SerializableType: 
+      m_SerializableObject: 
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Load Color Texture
+    path: Load Color Texture
+    tooltip: 
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: True
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Smoothly Interpolated Trajectories
+    path: Smoothly Interpolated Trajectories
+    tooltip: 
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: True
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Load Surface Normal
+    path: Load Surface Normal
+    tooltip: 
+    sheetType: m_Bool
+    realType: Boolean
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: True
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: Position Required Two Textures
+    path: Position Required Two Textures
     tooltip: 
     sheetType: m_Bool
     realType: Boolean
@@ -3012,7 +3027,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1000
+      m_SerializableObject: 6
     m_Space: 2147483647
   m_Property:
     name: o
@@ -5834,8 +5849,8 @@ MonoBehaviour:
   - {fileID: 8926484042661616220}
   m_ExposedName: Load Color Texture
   m_Exposed: 1
-  m_Order: 28
-  m_Category: VAT Params
+  m_Order: 0
+  m_Category: VAT Variants
   m_Min:
     m_Type:
       m_SerializableType: 
@@ -5914,8 +5929,8 @@ MonoBehaviour:
   - {fileID: 8926484042661616222}
   m_ExposedName: Position Required Two Textures
   m_Exposed: 1
-  m_Order: 29
-  m_Category: VAT Params
+  m_Order: 3
+  m_Category: VAT Variants
   m_Min:
     m_Type:
       m_SerializableType: 
@@ -5994,8 +6009,8 @@ MonoBehaviour:
   - {fileID: 8926484042661616224}
   m_ExposedName: Load Surface Normal
   m_Exposed: 1
-  m_Order: 31
-  m_Category: VAT Params
+  m_Order: 2
+  m_Category: VAT Variants
   m_Min:
     m_Type:
       m_SerializableType: 
@@ -6716,7 +6731,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1000
+      m_SerializableObject: 4
     m_Space: 2147483647
   m_Property:
     name: o
@@ -7087,7 +7102,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
@@ -7141,7 +7156,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 1
+      m_SerializableObject: 5
     m_Space: 2147483647
   m_Property:
     name: o
@@ -7823,7 +7838,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":-10.0,"y":10.0}'
+      m_SerializableObject: '{"x":-20.0,"y":20.0}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -8111,7 +8126,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":-10.0,"y":10.0}'
+      m_SerializableObject: '{"x":-20.0,"y":20.0}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -8511,8 +8526,8 @@ MonoBehaviour:
   - {fileID: 8926484042661616375}
   m_ExposedName: Smoothly Interpolated Trajectories
   m_Exposed: 1
-  m_Order: 32
-  m_Category: VAT Params
+  m_Order: 1
+  m_Category: VAT Variants
   m_Min:
     m_Type:
       m_SerializableType: 
