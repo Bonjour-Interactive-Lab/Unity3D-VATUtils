@@ -7,6 +7,7 @@ todo:
 * [ ] Cleanup example Scene
 * [ ] Create Video Demo
 * [ ] Update Readme
+* [ ] VAT Shader global Issue: **All the shader from sideFX are computing normal surface normal on object space where the shader is set on Tangent Space so the surface normal doesn't work. Also no need to convert from Object to tangent as normal can be grabbed directly on Tangent Space**
 
 * [X] Add support for Rigidbody (```VATDataStructs.cs``` + inheritance class from ```BindVATToVFX.cs```)
 * [X] Add vfx examples for Rigid body
