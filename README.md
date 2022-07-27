@@ -3,12 +3,18 @@ This repository is under update to support VAT3.0 from sideFX.
 The following readme is outdated and concerns VAT2.1. See the VAT 2.X branch for complete informations.
 
 todo:
-* [ ] Add support for Particles and dynamic remeshing (```VATDataStructs.cs``` + inheritance class from ```BindVATToVFX.cs```)
-* [ ] Remplace keyword from Rigid body, Particles and dynamic remeshing shaders by bool as BVFX blackboard doesn't support it (shadergraph)
-* [ ] Add vfx examples for Rigid body, Particles and dynamic remeshing
+* [ ] Cleanup scene and code
+* [ ] Cleanup example Scene
+* [ ] Create Video Demo
+* [ ] Update Readme
 
 * [X] Add support for Rigidbody (```VATDataStructs.cs``` + inheritance class from ```BindVATToVFX.cs```)
-* [X] Add vfx examples for Rigid bodyg
+* [X] Add vfx examples for Rigid body
+* [X] Add support for Particles Sprite (```VATDataStructs.cs``` + inheritance class from ```BindVATToVFX.cs```)
+* [X] Add vfx examples for Particles Sprite
+* [X] Add support for Dynamic Remeshing (```VATDataStructs.cs``` + inheritance class from ```BindVATToVFX.cs```)
+* [X] Add vfx examples for Dynamic Remeshing
+      
 
 # VATUtils
 Utils script for using VAT shader form SideFX Labs with VFX Graph Effects
