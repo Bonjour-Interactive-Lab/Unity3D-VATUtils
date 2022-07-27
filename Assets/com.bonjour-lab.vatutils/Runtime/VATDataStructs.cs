@@ -36,11 +36,22 @@ namespace Bonjour.VAT{
             animateFirstFrame               = MaterialGetter.GetBoolValue(mat, "_B_animateFirstFrame");
             smoothlyInterpolatedTrajectory  = MaterialGetter.GetBoolValue(mat, "_Smoothly_Interpolated_Trajectories");
 
-
             //Particles
+            particleScalesAreInPositionAlpha        = MaterialGetter.GetBoolValue(mat, "_B_pscaleAreInPosA");
+            globalParticleScaleMultiplier           = MaterialGetter.GetFloatValue(mat, "_globalPscaleMul");
+            particleWidthBaseScale                  = MaterialGetter.GetFloatValue(mat, "_widthBaseScale");
+            particleHeigtBaseScale                  = MaterialGetter.GetFloatValue(mat, "_heightBaseScale");
+            particlesTextureUScale                  = MaterialGetter.GetFloatValue(mat, "_particleTexUScale");
+            particlesTextureVScale                  = MaterialGetter.GetFloatValue(mat, "_particleTexVScale");
+            computeSpinFromHeadingVector            = MaterialGetter.GetBoolValue(mat, "_B_spinFromHeading");
+            scaleByVelocityAmount                   = MaterialGetter.GetFloatValue(mat, "_scaleByVelAmount");
+            particleSpinPhase                       = MaterialGetter.GetFloatValue(mat, "_spinPhase");
+            hideParticlesOverlappingObjectOrigin    = MaterialGetter.GetBoolValue(mat, "_B_hideOverlappingOrigin");
+            originEffectiveRadius                   = MaterialGetter.GetFloatValue(mat, "_originRadius");
+            particleCanSpin                         = MaterialGetter.GetBoolValue(mat, "_Particles_Can_Spin");
 
-            //Dynamic
-            surfaceUVsFromColorRG   = MaterialGetter.GetBoolValue(mat, "_B_uvFromRG"); ;
+        //Dynamic
+        surfaceUVsFromColorRG   = MaterialGetter.GetBoolValue(mat, "_B_uvFromRG"); ;
             lookupTable             = MaterialGetter.GetTexture(mat, "_lookupTable"); ;
 
             //Data
@@ -85,18 +96,18 @@ namespace Bonjour.VAT{
         public readonly bool smoothlyInterpolatedTrajectory;
         
         // //Particles Sprites
-        // public readonly bool particleScalesAreInPositionAlpha;
-        // public readonly float globalParticleScaleMultiplier;
-        // public readonly float particleWidthBaseScale;
-        // public readonly float particleHeigtBaseScale;
-        // public readonly float particlesTextureUScale;
-        // public readonly float particlesTextureVScale;
-        // public readonly bool computeSpinFromHeadingVector;
-        // public readonly float scaleByVelocityAmount;
-        // public readonly float particleSpinPhase;
-        // public readonly bool hideParticlesOverlappingObjectOrigin;
-        // public readonly float originEffectiveRadius;
-        // public readonly bool particleCanSpin;
+        public readonly bool particleScalesAreInPositionAlpha;
+        public readonly float globalParticleScaleMultiplier;
+        public readonly float particleWidthBaseScale;
+        public readonly float particleHeigtBaseScale;
+        public readonly float particlesTextureUScale;
+        public readonly float particlesTextureVScale;
+        public readonly bool computeSpinFromHeadingVector;
+        public readonly float scaleByVelocityAmount;
+        public readonly float particleSpinPhase;
+        public readonly bool hideParticlesOverlappingObjectOrigin;
+        public readonly float originEffectiveRadius;
+        public readonly bool particleCanSpin;
 
         // //Dynamic Remeshing
         public readonly bool surfaceUVsFromColorRG;
