@@ -16,8 +16,8 @@ MonoBehaviour:
   - title: Random Position on Mesh + Rand Seed Geenration
     position:
       serializedVersion: 2
-      x: -323
-      y: 713
+      x: -322
+      y: 714
       width: 925
       height: 460
     contents:
@@ -1719,7 +1719,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614699}
   m_ExposedName: Playback Speed
   m_Exposed: 1
-  m_Order: 16
+  m_Order: 20
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -1799,7 +1799,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614703}
   m_ExposedName: Auto Playback
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 10
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -1970,7 +1970,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614707}
   m_ExposedName: Bound Max X
   m_Exposed: 1
-  m_Order: 11
+  m_Order: 15
   m_Category: VAT Data
   m_Min:
     m_Type:
@@ -2050,7 +2050,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614709}
   m_ExposedName: Bound Max Y
   m_Exposed: 1
-  m_Order: 21
+  m_Order: 25
   m_Category: VAT Data
   m_Min:
     m_Type:
@@ -2130,7 +2130,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614711}
   m_ExposedName: Bound Max Z
   m_Exposed: 1
-  m_Order: 24
+  m_Order: 28
   m_Category: VAT Data
   m_Min:
     m_Type:
@@ -2210,7 +2210,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614736}
   m_ExposedName: VAT Mesh
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 6
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -2980,7 +2980,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615262}
   m_ExposedName: Max Lifetime
   m_Exposed: 1
-  m_Order: 14
+  m_Order: 18
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -3250,7 +3250,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 81, y: 772}
+  m_UIPosition: {x: 82, y: 773}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -3424,7 +3424,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615871}
   m_ExposedName: Seed
   m_Exposed: 1
-  m_Order: 9
+  m_Order: 13
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -3445,7 +3445,7 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661615850}
     - outputSlot: {fileID: 8926484042661615871}
       inputSlot: {fileID: 8926484042661616351}
-    position: {x: -298, y: 889}
+    position: {x: -297, y: 890}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661615871
@@ -4038,7 +4038,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616149}
   m_ExposedName: Game Time at First Frame
   m_Exposed: 1
-  m_Order: 15
+  m_Order: 19
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4255,7 +4255,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616155}
   m_ExposedName: Houdini FPS
   m_Exposed: 1
-  m_Order: 19
+  m_Order: 23
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4335,7 +4335,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616157}
   m_ExposedName: Interframe Interpolation
   m_Exposed: 1
-  m_Order: 22
+  m_Order: 26
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4415,7 +4415,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616159}
   m_ExposedName: Interpolate Color
   m_Exposed: 1
-  m_Order: 23
+  m_Order: 27
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4495,7 +4495,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616161}
   m_ExposedName: Interpolate Spare Color
   m_Exposed: 1
-  m_Order: 25
+  m_Order: 29
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4575,7 +4575,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616163}
   m_ExposedName: Support Surface Normal Map
   m_Exposed: 1
-  m_Order: 26
+  m_Order: 30
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4655,7 +4655,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616165}
   m_ExposedName: Two Sided Normals
   m_Exposed: 1
-  m_Order: 27
+  m_Order: 31
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4735,7 +4735,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616167}
   m_ExposedName: Bound Min X
   m_Exposed: 1
-  m_Order: 30
+  m_Order: 32
   m_Category: VAT Data
   m_Min:
     m_Type:
@@ -5849,7 +5849,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616220}
   m_ExposedName: Load Color Texture
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: VAT Variants
   m_Min:
     m_Type:
@@ -5929,7 +5929,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616222}
   m_ExposedName: Position Required Two Textures
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 7
   m_Category: VAT Variants
   m_Min:
     m_Type:
@@ -6009,7 +6009,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616224}
   m_ExposedName: Load Surface Normal
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 4
   m_Category: VAT Variants
   m_Min:
     m_Type:
@@ -6259,7 +6259,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616235}
   m_ExposedName: Display Frame
   m_Exposed: 1
-  m_Order: 20
+  m_Order: 24
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -6506,7 +6506,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616269}
   m_ExposedName: Number of Instances To Spawn
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -6684,7 +6684,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616281}
   m_ExposedName: Min Lifetime
   m_Exposed: 1
-  m_Order: 13
+  m_Order: 17
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -6764,7 +6764,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616301}
   m_ExposedName: Scale over Life
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 21
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -7109,7 +7109,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616311}
   m_ExposedName: Global Scale
   m_Exposed: 1
-  m_Order: 18
+  m_Order: 22
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -7612,7 +7612,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 81, y: 980}
+  m_UIPosition: {x: 82, y: 981}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -7786,7 +7786,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616344}
   m_ExposedName: MinMaxX
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 8
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -7807,7 +7807,7 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661615848}
     - outputSlot: {fileID: 8926484042661616346}
       inputSlot: {fileID: 8926484042661615849}
-    position: {x: -78, y: 862}
+    position: {x: -77, y: 863}
     expandedSlots:
     - {fileID: 8926484042661616344}
     expanded: 0
@@ -7930,7 +7930,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -61, y: 1115}
+  m_UIPosition: {x: -60, y: 1116}
   m_UICollapsed: 0
   m_UISuperCollapsed: 1
   m_InputSlots:
@@ -8074,7 +8074,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616353}
   m_ExposedName: MinMaxZ
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 11
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -8095,7 +8095,7 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661616339}
     - outputSlot: {fileID: 8926484042661616355}
       inputSlot: {fileID: 8926484042661616340}
-    position: {x: -87, y: 1064}
+    position: {x: -86, y: 1065}
     expandedSlots:
     - {fileID: 8926484042661616353}
     expanded: 0
@@ -8218,7 +8218,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 315, y: 977}
+  m_UIPosition: {x: 316, y: 978}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -8526,7 +8526,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616375}
   m_ExposedName: Smoothly Interpolated Trajectories
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 3
   m_Category: VAT Variants
   m_Min:
     m_Type:
@@ -8606,7 +8606,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616377}
   m_ExposedName: Piece Scales Are in Position Alpha
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 5
   m_Category: VAT Customisation
   m_Min:
     m_Type:
@@ -8686,7 +8686,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616379}
   m_ExposedName: Global Piece Scale Multiplier
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 9
   m_Category: VAT Customisation
   m_Min:
     m_Type:
@@ -8766,7 +8766,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616381}
   m_ExposedName: Stretch by Velocity
   m_Exposed: 1
-  m_Order: 8
+  m_Order: 12
   m_Category: VAT Customisation
   m_Min:
     m_Type:
@@ -8846,7 +8846,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616383}
   m_ExposedName: Animate First Frame
   m_Exposed: 1
-  m_Order: 12
+  m_Order: 16
   m_Category: VAT Customisation
   m_Min:
     m_Type:
@@ -8926,7 +8926,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616385}
   m_ExposedName: Stretch by Velocity Amount
   m_Exposed: 1
-  m_Order: 10
+  m_Order: 14
   m_Category: VAT Customisation
   m_Min:
     m_Type:
