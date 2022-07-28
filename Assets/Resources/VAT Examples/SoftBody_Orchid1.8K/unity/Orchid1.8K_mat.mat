@@ -82,6 +82,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_72ab43ee7e5b4ff3acd5a9fb57f150dc_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 2de8a0f81112ce24d8f4b0a309cb5c72, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a32476545ae34e06b25fe6959be4bf79_Texture_1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -133,7 +137,7 @@ Material:
     - _B_interpolate: 1
     - _B_interpolateCol: 0
     - _B_interpolateSpareCol: 0
-    - _B_surfaceNormals: 1
+    - _B_surfaceNormals: 0
     - _B_twoSidedNorms: 0
     - _BlendMode: 0
     - _BumpScale: 1
@@ -153,7 +157,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Load_Color_Texture: 1
-    - _Load_Surface_Normal_Map: 1
+    - _Load_Surface_Normal_Map: 0
     - _Metallic: 0
     - _Mode: 0
     - _Normal_Time: 1
@@ -207,7 +211,7 @@ Material:
     - _displayFrame: 0
     - _frameCount: 300
     - _gameTimeAtFirstFrame: 0
-    - _houdiniFPS: 31
+    - _houdiniFPS: 30
     - _playbackSpeed: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

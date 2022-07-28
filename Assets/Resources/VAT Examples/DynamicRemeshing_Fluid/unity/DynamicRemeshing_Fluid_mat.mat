@@ -84,6 +84,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_cc7285195806484fb921d5cc3f4a092a_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _colTexture:
         m_Texture: {fileID: 2800000, guid: 5c8183d8eac50d8489e479be3e7aad86, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -133,7 +137,7 @@ Material:
     - _B_LOAD_POS_TWO_TEX: 0
     - _B_UNLOAD_ROT_TEX: 0
     - _B_autoPlayback: 1
-    - _B_surfaceNormals: 1
+    - _B_surfaceNormals: 0
     - _B_twoSidedNorms: 0
     - _B_uvFromRG: 0
     - _BlendMode: 0
@@ -204,7 +208,7 @@ Material:
     - _boundMinX: -2.33
     - _boundMinY: -0.213
     - _boundMinZ: -1.8
-    - _displayFrame: 1
+    - _displayFrame: 39.15
     - _frameCount: 100
     - _gameTimeAtFirstFrame: 0
     - _houdiniFPS: 30
