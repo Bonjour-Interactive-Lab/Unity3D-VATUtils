@@ -18,7 +18,7 @@ MonoBehaviour:
   - heading: VAT-Utils
     text: Utils scripts and shaders for using VAT from SideFX Labs with VFX Graph
       Effects and bind the shader data automatically.
-    linkText: Github Project
+    linkText: Learn more on the Github Project page
     url: https://github.com/Bonjour-Interactive-Lab/Unity3D-VATUtils
   - heading: 
     text: For more information on Vertex Animation Texture (VAT) see the SideFX Labs
