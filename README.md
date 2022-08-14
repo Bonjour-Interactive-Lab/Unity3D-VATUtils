@@ -53,7 +53,7 @@ To the scopedRegistries section:
 To the dependencies section:
 
 ```
-"com.bonjour-lab.vatutils": "0.0.6",
+"com.bonjour-lab.vatutils": "0.0.7",
 ```
 
 After changes, the manifest file should look like below:
@@ -69,7 +69,7 @@ After changes, the manifest file should look like below:
     }
   ],
   "dependencies": {
-    "com.bonjour-lab.vatutils": "0.0.6",
+    "com.bonjour-lab.vatutils": "0.0.7",
     ...
 ```
 
