@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: b182065fbf78bf8438f5d31c50943b01, type: 3}
+  title: VAT-Utils
+  sections:
+  - heading: VAT-Utils
+    text: Utils scripts and shaders for using VAT from SideFX Labs with VFX Graph
+      Effects and bind the shader data automatically.
+    linkText: Github Project
+    url: https://github.com/Bonjour-Interactive-Lab/Unity3D-VATUtils
+  - heading: 
+    text: For more information on Vertex Animation Texture (VAT) see the SideFX Labs
+      resources
+    linkText: SideFX Labs github project
+    url: https://github.com/sideeffects/SideFXLabs
+  - heading: 
+    text: 
+    linkText: 'SideFX Labs: VAT 3.0 FAQ and Links'
+    url: https://www.sidefx.com/forum/topic/81422/?page=1
+  loadedLayout: 1

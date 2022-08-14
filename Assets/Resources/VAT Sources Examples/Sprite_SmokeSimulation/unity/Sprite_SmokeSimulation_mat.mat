@@ -1,21 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8290136880532109290
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 12
-  hdPluginSubTargetMaterialVersions:
-    m_Keys: []
-    m_Values: 
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -23,24 +7,28 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DynamicRemeshing_Fluid_mat
-  m_Shader: {fileID: -6465566751694194690, guid: 19b419010e1004644affea18d0fc8dff,
+  m_Name: Sprite_SmokeSimulation_mat
+  m_Shader: {fileID: -6465566751694194690, guid: 8bf13a6837d559049924774e12033384,
     type: 3}
   m_ValidKeywords:
+  - _ALPHATEST_ON
   - _DISABLE_SSR_TRANSPARENT
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _B_CAN_SPIN
+  - _B_LOAD_COL_TEX
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2225
+  m_CustomRenderQueue: 2475
   stringTagMap:
     MotionVector: User
+    RenderType: TransparentCutout
   disabledShaderPasses:
-  - TransparentDepthPrepass
+  - MOTIONVECTORS
   - TransparentDepthPostpass
   - TransparentBackface
   - RayTracingPrepass
-  - MOTIONVECTORS
+  - TransparentDepthPrepass
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -80,32 +68,28 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_0094631b432a4fe387d8703a9fae8f67_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 65b327b254c481d4aae31b400dc0ff13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_4bf08c3af96c40578a6eaf9aa21894f7_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_72ab43ee7e5b4ff3acd5a9fb57f150dc_Texture_1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_cc7285195806484fb921d5cc3f4a092a_Texture_1:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _colTexture:
-        m_Texture: {fileID: 2800000, guid: 5c8183d8eac50d8489e479be3e7aad86, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _lookupTable:
-        m_Texture: {fileID: 2800000, guid: 7c8e131efb139e541bd81a062d2ef3b2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 37450f44723cea243b96b35b03953f83, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _posTexture:
-        m_Texture: {fileID: 2800000, guid: 7ec9a54fdfb134645864af06357a2d22, type: 3}
+        m_Texture: {fileID: 2800000, guid: b33835fa0d3050c468aafb42855b1b04, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _posTexture2:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _rotTexture:
-        m_Texture: {fileID: 2800000, guid: aa9fa314677e4da41a4c3b0bbfb94796, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _spareColTexture:
@@ -127,19 +111,24 @@ Material:
     m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 0
-    - _AlphaCutoffEnable: 0
+    - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
+    - _B_CAN_SPIN: 1
     - _B_LOAD_COL_TEX: 1
     - _B_LOAD_NORM_TEX: 0
     - _B_LOAD_POS_TWO_TEX: 0
-    - _B_UNLOAD_ROT_TEX: 0
     - _B_autoPlayback: 1
+    - _B_hideOverlappingOrigin: 1
+    - _B_interpolate: 1
+    - _B_interpolateCol: 1
+    - _B_interpolateSpareCol: 0
+    - _B_pscaleAreInPosA: 1
+    - _B_spinFromHeading: 1
     - _B_surfaceNormals: 0
-    - _B_twoSidedNorms: 0
-    - _B_uvFromRG: 0
+    - _B_twoSidedNorms: 1
     - _BlendMode: 0
     - _BumpScale: 1
     - _ConservativeDepthOffsetEnable: 0
@@ -152,7 +141,7 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
-    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -164,6 +153,7 @@ Material:
     - _OcclusionStrength: 1
     - _OpaqueCullMode: 2
     - _Parallax: 0.02
+    - _Particles_Can_Spin: 1
     - _Positions_Require_Two_Textures: 0
     - _QueueControl: -1
     - _QueueOffset: 0
@@ -197,24 +187,47 @@ Material:
     - _TransparentZWrite: 0
     - _UVSec: 0
     - _UseShadowThreshold: 0
-    - _Use_Compressed_Normals: 0
     - _ZTestDepthEqualForOpaque: 3
-    - _ZTestGBuffer: 4
+    - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _boundMaxX: 1.8
-    - _boundMaxY: 5.1
-    - _boundMaxZ: 4.05
-    - _boundMinX: -2.33
-    - _boundMinY: -0.213
-    - _boundMinZ: -1.8
-    - _displayFrame: 39.15
+    - _boundMaxX: 3.8
+    - _boundMaxY: 8.9
+    - _boundMaxZ: 4.25
+    - _boundMinX: -7.6
+    - _boundMinY: -0.314
+    - _boundMinZ: -6.4
+    - _displayFrame: 0
     - _frameCount: 100
     - _gameTimeAtFirstFrame: 0
+    - _globalPscaleMul: 1
+    - _heightBaseScale: 0.2
     - _houdiniFPS: 30
+    - _originRadius: 0.02
+    - _particleTexUScale: 1
+    - _particleTexVScale: 1
     - _playbackSpeed: 1
+    - _scaleByVelAmount: 1
+    - _spinPhase: 0
+    - _widthBaseScale: 0.2
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &3365961109633720470
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 12
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 

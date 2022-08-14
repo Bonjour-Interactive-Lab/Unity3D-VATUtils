@@ -471,6 +471,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616528}
   - {fileID: 8926484042661616537}
   - {fileID: 8926484042661616541}
+  - {fileID: 8926484042661616551}
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
@@ -1970,7 +1971,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614693}
   m_ExposedName: Position Texture
   m_Exposed: 1
-  m_Order: 46
+  m_Order: 48
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -2050,7 +2051,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614695}
   m_ExposedName: Rotation Texture
   m_Exposed: 1
-  m_Order: 51
+  m_Order: 53
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -2130,7 +2131,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614697}
   m_ExposedName: Color Texture
   m_Exposed: 1
-  m_Order: 55
+  m_Order: 57
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -2210,7 +2211,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614699}
   m_ExposedName: Playback Speed
   m_Exposed: 1
-  m_Order: 19
+  m_Order: 25
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -2290,7 +2291,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614703}
   m_ExposedName: Auto Playback
   m_Exposed: 1
-  m_Order: 9
+  m_Order: 17
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -2461,7 +2462,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614707}
   m_ExposedName: Bound Max X
   m_Exposed: 1
-  m_Order: 15
+  m_Order: 22
   m_Category: VAT Data
   m_Min:
     m_Type:
@@ -2541,7 +2542,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614709}
   m_ExposedName: Bound Max Y
   m_Exposed: 1
-  m_Order: 28
+  m_Order: 31
   m_Category: VAT Data
   m_Min:
     m_Type:
@@ -2621,7 +2622,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614711}
   m_ExposedName: Bound Max Z
   m_Exposed: 1
-  m_Order: 35
+  m_Order: 37
   m_Category: VAT Data
   m_Min:
     m_Type:
@@ -2701,7 +2702,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614736}
   m_ExposedName: VAT Mesh
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 6
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -3223,7 +3224,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615250}
   m_ExposedName: LookDev
   m_Exposed: 1
-  m_Order: 59
+  m_Order: 61
   m_Category: Debugger
   m_Min:
     m_Type:
@@ -3471,7 +3472,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615262}
   m_ExposedName: Max Lifetime
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 10
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -3749,7 +3750,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615871}
   m_ExposedName: Seed
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -3832,7 +3833,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615918}
   m_ExposedName: Debug Time
   m_Exposed: 1
-  m_Order: 61
+  m_Order: 63
   m_Category: Debugger
   m_Min:
     m_Type:
@@ -4203,7 +4204,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616145}
   m_ExposedName: Position Texture 2
   m_Exposed: 1
-  m_Order: 49
+  m_Order: 51
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4283,7 +4284,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616147}
   m_ExposedName: Spare Color Texture
   m_Exposed: 1
-  m_Order: 57
+  m_Order: 59
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4363,7 +4364,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616149}
   m_ExposedName: Game Time at First Frame
   m_Exposed: 1
-  m_Order: 18
+  m_Order: 24
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4580,7 +4581,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616155}
   m_ExposedName: Houdini FPS
   m_Exposed: 1
-  m_Order: 23
+  m_Order: 28
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4660,7 +4661,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616157}
   m_ExposedName: Interframe Interpolation
   m_Exposed: 1
-  m_Order: 30
+  m_Order: 33
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4740,7 +4741,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616159}
   m_ExposedName: Interpolate Color
   m_Exposed: 1
-  m_Order: 34
+  m_Order: 36
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4820,7 +4821,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616161}
   m_ExposedName: Interpolate Spare Color
   m_Exposed: 1
-  m_Order: 37
+  m_Order: 39
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4900,7 +4901,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616163}
   m_ExposedName: Support Surface Normal Map
   m_Exposed: 1
-  m_Order: 39
+  m_Order: 41
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -4980,7 +4981,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616165}
   m_ExposedName: Two Sided Normals
   m_Exposed: 1
-  m_Order: 41
+  m_Order: 43
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -5060,7 +5061,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616167}
   m_ExposedName: Bound Min X
   m_Exposed: 1
-  m_Order: 44
+  m_Order: 46
   m_Category: VAT Data
   m_Min:
     m_Type:
@@ -5140,7 +5141,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616169}
   m_ExposedName: Bound Min Y
   m_Exposed: 1
-  m_Order: 47
+  m_Order: 49
   m_Category: VAT Data
   m_Min:
     m_Type:
@@ -5220,7 +5221,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616171}
   m_ExposedName: Bound Min Z
   m_Exposed: 1
-  m_Order: 53
+  m_Order: 55
   m_Category: VAT Data
   m_Min:
     m_Type:
@@ -6209,7 +6210,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616220}
   m_ExposedName: Load Color Texture
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 3
   m_Category: VAT Variants
   m_Min:
     m_Type:
@@ -6289,7 +6290,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616222}
   m_ExposedName: Position Required Two Textures
   m_Exposed: 1
-  m_Order: 10
+  m_Order: 18
   m_Category: VAT Variants
   m_Min:
     m_Type:
@@ -6369,7 +6370,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616224}
   m_ExposedName: Load Surface Normal
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 12
   m_Category: VAT Variants
   m_Min:
     m_Type:
@@ -6449,7 +6450,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616226}
   m_ExposedName: Use Compressed Normals
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 8
   m_Category: VAT Variants
   m_Min:
     m_Type:
@@ -6699,7 +6700,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616235}
   m_ExposedName: Display Frame
   m_Exposed: 1
-  m_Order: 27
+  m_Order: 30
   m_Category: VAT Params
   m_Min:
     m_Type:
@@ -7313,7 +7314,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616269}
   m_ExposedName: Number of Instances To Spawn
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -7491,7 +7492,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616281}
   m_ExposedName: Min Lifetime
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 9
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -7667,7 +7668,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616301}
   m_ExposedName: Scale over Life
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 13
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -8013,7 +8014,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616311}
   m_ExposedName: Global Scale
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 14
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -8337,6 +8338,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616356}
   - {fileID: 8926484042661616357}
   - {fileID: 8926484042661616358}
+  - {fileID: 8926484042661616545}
   - {fileID: 8926484042661616359}
   - {fileID: 8926484042661616360}
   - {fileID: 8926484042661616361}
@@ -8370,7 +8372,7 @@ MonoBehaviour:
   castShadows: 1
   useExposureWeight: 0
   flipbookLayout: 0
-  shaderGraph: {fileID: 4333940904281232215, guid: 987a09a96b5f17d46a88a7c429d130d2,
+  shaderGraph: {fileID: 4333940904281232215, guid: e2afccc63d5b7184dac2c7e0c04cfb3c,
     type: 3}
   materialSettings:
     m_PropertyNames:
@@ -9710,7 +9712,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616382}
   m_ExposedName: VAT Mesh 1
   m_Exposed: 1
-  m_Order: 12
+  m_Order: 20
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -9790,7 +9792,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616384}
   m_ExposedName: Auto Playback 1
   m_Exposed: 1
-  m_Order: 14
+  m_Order: 21
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -9870,7 +9872,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616386}
   m_ExposedName: Game Time at First Frame 1
   m_Exposed: 1
-  m_Order: 20
+  m_Order: 26
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -9950,7 +9952,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616388}
   m_ExposedName: Playback Speed 1
   m_Exposed: 1
-  m_Order: 22
+  m_Order: 27
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -10030,7 +10032,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616390}
   m_ExposedName: Houdini FPS 1
   m_Exposed: 1
-  m_Order: 25
+  m_Order: 29
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -10110,7 +10112,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616392}
   m_ExposedName: Display Frame 1
   m_Exposed: 1
-  m_Order: 29
+  m_Order: 32
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -10190,7 +10192,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616394}
   m_ExposedName: Interframe Interpolation 1
   m_Exposed: 1
-  m_Order: 33
+  m_Order: 35
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -10270,7 +10272,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616396}
   m_ExposedName: Interpolate Color 1
   m_Exposed: 1
-  m_Order: 36
+  m_Order: 38
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -10350,7 +10352,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616398}
   m_ExposedName: Interpolate Spare Color 1
   m_Exposed: 1
-  m_Order: 40
+  m_Order: 42
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -10430,7 +10432,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616400}
   m_ExposedName: Support Surface Normal Map 1
   m_Exposed: 1
-  m_Order: 42
+  m_Order: 44
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -10510,7 +10512,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616402}
   m_ExposedName: Two Sided Normals 1
   m_Exposed: 1
-  m_Order: 43
+  m_Order: 45
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -10590,7 +10592,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616404}
   m_ExposedName: Load Color Texture 1
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 4
   m_Category: VAT Variants 1
   m_Min:
     m_Type:
@@ -10670,7 +10672,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616406}
   m_ExposedName: Position Required Two Textures 1
   m_Exposed: 1
-  m_Order: 11
+  m_Order: 19
   m_Category: VAT Variants 1
   m_Min:
     m_Type:
@@ -10750,7 +10752,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616408}
   m_ExposedName: Load Surface Normal 1
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 15
   m_Category: VAT Variants 1
   m_Min:
     m_Type:
@@ -10830,7 +10832,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616410}
   m_ExposedName: Use Compressed Normals 1
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 11
   m_Category: VAT Variants 1
   m_Min:
     m_Type:
@@ -10910,7 +10912,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616412}
   m_ExposedName: Position Texture 1
   m_Exposed: 1
-  m_Order: 48
+  m_Order: 50
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -10990,7 +10992,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616414}
   m_ExposedName: Position Texture 3
   m_Exposed: 1
-  m_Order: 52
+  m_Order: 54
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -11070,7 +11072,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616416}
   m_ExposedName: Rotation Texture 1
   m_Exposed: 1
-  m_Order: 54
+  m_Order: 56
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -11150,7 +11152,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616418}
   m_ExposedName: Color Texture 1
   m_Exposed: 1
-  m_Order: 58
+  m_Order: 60
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -11230,7 +11232,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616420}
   m_ExposedName: Spare Color Texture 1
   m_Exposed: 1
-  m_Order: 60
+  m_Order: 62
   m_Category: VAT Params 1
   m_Min:
     m_Type:
@@ -11310,7 +11312,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616422}
   m_ExposedName: Frame Count 1
   m_Exposed: 1
-  m_Order: 8
+  m_Order: 16
   m_Category: VAT Data 1
   m_Min:
     m_Type:
@@ -11401,7 +11403,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616424}
   m_ExposedName: Bound Max X 1
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 23
   m_Category: VAT Data 1
   m_Min:
     m_Type:
@@ -11481,7 +11483,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616426}
   m_ExposedName: Bound Max Y 1
   m_Exposed: 1
-  m_Order: 31
+  m_Order: 34
   m_Category: VAT Data 1
   m_Min:
     m_Type:
@@ -11561,7 +11563,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616428}
   m_ExposedName: Bound Max Z 1
   m_Exposed: 1
-  m_Order: 38
+  m_Order: 40
   m_Category: VAT Data 1
   m_Min:
     m_Type:
@@ -11641,7 +11643,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616430}
   m_ExposedName: Bound Min X 1
   m_Exposed: 1
-  m_Order: 45
+  m_Order: 47
   m_Category: VAT Data 1
   m_Min:
     m_Type:
@@ -11721,7 +11723,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616432}
   m_ExposedName: Bound Min Y 1
   m_Exposed: 1
-  m_Order: 50
+  m_Order: 52
   m_Category: VAT Data 1
   m_Min:
     m_Type:
@@ -11801,7 +11803,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616434}
   m_ExposedName: Bound Min Z 1
   m_Exposed: 1
-  m_Order: 56
+  m_Order: 58
   m_Category: VAT Data 1
   m_Min:
     m_Type:
@@ -13123,7 +13125,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616538}
   m_ExposedName: MinMaxX
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 7
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -13275,7 +13277,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616542}
   m_ExposedName: MinMaxZ
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 5
   m_Category: Custom Instance Controls
   m_Min:
     m_Type:
@@ -13404,3 +13406,97 @@ MonoBehaviour:
   m_Direction: 1
   m_LinkedSlots:
   - {fileID: 8926484042661616521}
+--- !u!114 &8926484042661616545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661616545}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661616332}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 0
+    m_Space: 2147483647
+  m_Property:
+    name: _RandomValue
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
+  m_LinkedSlots:
+  - {fileID: 8926484042661616552}
+--- !u!114 &8926484042661616551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 486e063e1ed58c843942ea4122829ab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 114350483966674976}
+  m_Children: []
+  m_UIPosition: {x: 3080, y: 2350}
+  m_UICollapsed: 0
+  m_UISuperCollapsed: 0
+  m_InputSlots: []
+  m_OutputSlots:
+  - {fileID: 8926484042661616552}
+  attribute: particleId
+  location: 0
+  mask: xyz
+--- !u!114 &8926484042661616552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c52d920e7fff73b498050a6b3c4404ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661616552}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661616551}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 0
+    m_Space: 2147483647
+  m_Property:
+    name: particleId
+    m_serializedType:
+      m_SerializableType: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 1
+  m_LinkedSlots:
+  - {fileID: 8926484042661616545}

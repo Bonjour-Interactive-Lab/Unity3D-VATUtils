@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8290136880532109290
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 12
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,8 +23,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pistil150_mat
-  m_Shader: {fileID: -6465566751694194690, guid: 987a09a96b5f17d46a88a7c429d130d2,
+  m_Name: DynamicRemeshing_Fluid_mat
+  m_Shader: {fileID: -6465566751694194690, guid: 19b419010e1004644affea18d0fc8dff,
     type: 3}
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
@@ -65,19 +81,23 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_72ab43ee7e5b4ff3acd5a9fb57f150dc_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 2de8a0f81112ce24d8f4b0a309cb5c72, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_a32476545ae34e06b25fe6959be4bf79_Texture_1:
+    - _SampleTexture2D_cc7285195806484fb921d5cc3f4a092a_Texture_1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _colTexture:
-        m_Texture: {fileID: 2800000, guid: 7aac56ec23109f4418fef07ab83d0f72, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5c8183d8eac50d8489e479be3e7aad86, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _lookupTable:
+        m_Texture: {fileID: 2800000, guid: 7c8e131efb139e541bd81a062d2ef3b2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _posTexture:
-        m_Texture: {fileID: 2800000, guid: bb1f57315c3e3f6458e327b36246d324, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7ec9a54fdfb134645864af06357a2d22, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _posTexture2:
@@ -85,11 +105,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _rotTexture:
-        m_Texture: {fileID: 2800000, guid: 99a7d0d11eacd7041ac6b0ed49fd38c0, type: 3}
+        m_Texture: {fileID: 2800000, guid: aa9fa314677e4da41a4c3b0bbfb94796, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _spareColTexture:
-        m_Texture: {fileID: 2800000, guid: fbc7a383f9cc9494d804b3bbc3815e02, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -117,11 +137,9 @@ Material:
     - _B_LOAD_POS_TWO_TEX: 0
     - _B_UNLOAD_ROT_TEX: 0
     - _B_autoPlayback: 1
-    - _B_interpolate: 0
-    - _B_interpolateCol: 0
-    - _B_interpolateSpareCol: 0
     - _B_surfaceNormals: 0
     - _B_twoSidedNorms: 0
+    - _B_uvFromRG: 0
     - _BlendMode: 0
     - _BumpScale: 1
     - _ConservativeDepthOffsetEnable: 0
@@ -184,14 +202,14 @@ Material:
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _boundMaxX: 0.1
-    - _boundMaxY: 0.4
-    - _boundMaxZ: 0.15
-    - _boundMinX: -0.1
-    - _boundMinY: -0.101
-    - _boundMinZ: -0.1
-    - _displayFrame: 1
-    - _frameCount: 300
+    - _boundMaxX: 1.8
+    - _boundMaxY: 5.1
+    - _boundMaxZ: 4.05
+    - _boundMinX: -2.33
+    - _boundMinY: -0.213
+    - _boundMinZ: -1.8
+    - _displayFrame: 0
+    - _frameCount: 100
     - _gameTimeAtFirstFrame: 0
     - _houdiniFPS: 30
     - _playbackSpeed: 1
@@ -200,19 +218,3 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &7783851835417819819
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 12
-  hdPluginSubTargetMaterialVersions:
-    m_Keys: []
-    m_Values: 
