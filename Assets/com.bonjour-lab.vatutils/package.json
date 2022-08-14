@@ -1,7 +1,7 @@
 {
     "name": "com.bonjour-lab.vatutils",
     "displayName": "Bonjour Lab - VATUtils",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "unity": "2021.X",
     "description": "Vertex Animation Texture utilities tools used at BonjourLab",
     "keywords": [
