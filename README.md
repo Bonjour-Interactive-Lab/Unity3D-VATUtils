@@ -1,5 +1,7 @@
 # VATUtils
 Utils script for using VAT3.0 shaders form SideFX Labs with VFX Graph Effects.
+[See it in action here](https://youtu.be/Ms41cq63dQw)
+
 For more information on Vertex Animation Texture (VAT) see the [SideFX Labs repository](https://github.com/sideeffects/SideFXLabs) or the [FAQ and Links thread on their forum](https://www.sidefx.com/forum/topic/81422/?page=1)
 
 ![gif](https://i.imgur.com/RjQancz.gif)
